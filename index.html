@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mayarinha Adventures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-board">
+        <img src="img/clouds.png" class="nuvem">
+        <img src="img/mario.gif" class="mario">
+        <img src="img/pipe.png" class="pipe">
+        <button class="start" onClick="startGame()">Iniciar</button>
+    </div>
+    <div class="game-over">
+        <h1>Game Over :(</h1>
+        <button onClick="restartGame()">Reiniciar</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
