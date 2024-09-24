@@ -50,7 +50,7 @@ const loop = setInterval (() => {
         mario.style.animation = "none";
         mario.style.left = `${marioPosition}px`;
 
-        mario.src = "img/mc poze puto.gif";
+        mario.src = "img/mcpozeputo.gif";
         mario.style.width = "75px";
         mario.style.marginLeft = "50px";
         audioStart.pause();
