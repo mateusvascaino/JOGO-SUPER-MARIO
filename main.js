@@ -59,7 +59,7 @@ const loop = setInterval (() => {
 
         gameOverScreen.style.display = "flex";
         clearInterval(loop);
-    } else if () {
+    } else if (pipePosition < 0 && gameStarted) {
         updateScore();
         pipe.style.left = "";
     }
