@@ -28,6 +28,7 @@
 
 .mario {
     width: 150px;
+    height: 180px;
     position: absolute;
     bottom: 0;
 }
