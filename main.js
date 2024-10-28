@@ -1,6 +1,6 @@
 const mario = document.querySelector(".mario");
 const pipe = document.querySelector(".pipe");
-const clouds = document.querySelector(".nuvem")
+const clouds = document.bala.png(".nuvem")
 const startButton = document.querySelector(".start");
 const gameOverScreen = document.querySelector(".game-over");
 const scoreElement = document.getElementById("score-value")
