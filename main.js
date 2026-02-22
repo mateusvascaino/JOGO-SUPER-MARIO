@@ -6,7 +6,7 @@ const gameOverScreen = document.querySelector(".game-over");
 const scoreElement = document.getElementById("score-value")
 
 const audioStart = new Audio("./sound/sound_theme.mp3");
-const gameOverSound = new Audio("./sound/audio_gameover.mp3");
+const gameOverSound = new Audio("./sound/mc poze morte.mp3");
 
 let gameStarted = false;
 let score = 0;
