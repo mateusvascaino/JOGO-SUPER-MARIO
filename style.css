@@ -137,7 +137,7 @@ button.start {
 
 @keyframes clouds-animation {
     from {
-        right: -550px;
+        right: 500px;
     }
 
     to {
